@@ -1,0 +1,249 @@
+{
+  "title": "Scadenziario delle issue",
+  "description": "Dashboard per organizzare le scadenze delle issue, consultare lo stato e registrare aggiornamenti.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo delle issue in scadenza e delle attività recenti.",
+      "metrics": [
+        {
+          "label": "Issue aperte",
+          "value": "18"
+        },
+        {
+          "label": "In scadenza oggi",
+          "value": "3"
+        },
+        {
+          "label": "Scadute",
+          "value": "2"
+        },
+        {
+          "label": "Completate questo mese",
+          "value": "11"
+        }
+      ],
+      "columns": [
+        "Codice",
+        "Titolo",
+        "Progetto",
+        "Priorità",
+        "Scadenza",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "LU-104",
+          "Rivedere il flusso di accesso",
+          "Lumo Console",
+          "Alta",
+          "2025-04-18",
+          "In corso"
+        ],
+        [
+          "VE-218",
+          "Aggiornare il riepilogo attività",
+          "Vela Suite",
+          "Media",
+          "2025-04-18",
+          "Da fare"
+        ],
+        [
+          "NU-067",
+          "Correggere il filtro archivio",
+          "Nubi Desk",
+          "Alta",
+          "2025-04-19",
+          "In revisione"
+        ],
+        [
+          "LU-112",
+          "Ridurre i tempi di caricamento",
+          "Lumo Console",
+          "Media",
+          "2025-04-15",
+          "Scaduta"
+        ],
+        [
+          "VE-203",
+          "Rendere più chiaro lo stato vuoto",
+          "Vela Suite",
+          "Bassa",
+          "2025-04-14",
+          "Scaduta"
+        ],
+        [
+          "NU-081",
+          "Aggiungere ordinamento tabella",
+          "Nubi Desk",
+          "Media",
+          "2025-04-22",
+          "Da fare"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "issue",
+      "title": "Registro issue",
+      "description": "Consulta e filtra le issue per progetto, priorità e stato.",
+      "metrics": [
+        {
+          "label": "Issue registrate",
+          "value": "42"
+        },
+        {
+          "label": "Alta priorità",
+          "value": "7"
+        }
+      ],
+      "columns": [
+        "Codice",
+        "Titolo",
+        "Progetto",
+        "Priorità",
+        "Scadenza",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "LU-104",
+          "Rivedere il flusso di accesso",
+          "Lumo Console",
+          "Alta",
+          "2025-04-18",
+          "In corso"
+        ],
+        [
+          "LU-112",
+          "Ridurre i tempi di caricamento",
+          "Lumo Console",
+          "Media",
+          "2025-04-15",
+          "Scaduta"
+        ],
+        [
+          "LU-119",
+          "Uniformare le etichette dei menu",
+          "Lumo Console",
+          "Bassa",
+          "2025-04-25",
+          "Da fare"
+        ],
+        [
+          "VE-203",
+          "Rendere più chiaro lo stato vuoto",
+          "Vela Suite",
+          "Bassa",
+          "2025-04-14",
+          "Scaduta"
+        ],
+        [
+          "VE-218",
+          "Aggiornare il riepilogo attività",
+          "Vela Suite",
+          "Media",
+          "2025-04-18",
+          "Da fare"
+        ],
+        [
+          "VE-224",
+          "Gestire la conferma di modifica",
+          "Vela Suite",
+          "Alta",
+          "2025-04-23",
+          "In revisione"
+        ],
+        [
+          "NU-067",
+          "Correggere il filtro archivio",
+          "Nubi Desk",
+          "Alta",
+          "2025-04-19",
+          "In revisione"
+        ],
+        [
+          "NU-081",
+          "Aggiungere ordinamento tabella",
+          "Nubi Desk",
+          "Media",
+          "2025-04-22",
+          "Da fare"
+        ],
+        [
+          "NU-093",
+          "Migliorare la vista compatta",
+          "Nubi Desk",
+          "Bassa",
+          "2025-04-28",
+          "Completata"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-issue",
+      "title": "Nuova issue",
+      "description": "Registra una issue e aggiungila allo scadenziario.",
+      "metrics": [],
+      "columns": [
+        "Titolo",
+        "Progetto",
+        "Priorità",
+        "Scadenza",
+        "Stato"
+      ],
+      "rows": [],
+      "form": [
+        "Titolo",
+        "Progetto",
+        "Priorità",
+        "Scadenza",
+        "Stato"
+      ]
+    },
+    {
+      "id": "progetti",
+      "title": "Progetti",
+      "description": "Riepilogo delle issue associate a ciascun progetto immaginario.",
+      "metrics": [],
+      "columns": [
+        "Progetto",
+        "Issue aperte",
+        "In scadenza",
+        "Scadute",
+        "Completate"
+      ],
+      "rows": [
+        [
+          "Lumo Console",
+          "8",
+          "2",
+          "1",
+          "5"
+        ],
+        [
+          "Vela Suite",
+          "6",
+          "1",
+          "1",
+          "4"
+        ],
+        [
+          "Nubi Desk",
+          "4",
+          "1",
+          "0",
+          "2"
+        ]
+      ],
+      "form": []
+    }
+  ],
+  "theme": {
+    "palette": "blu-istituzionale",
+    "fonts": "istituzionale"
+  }
+}
